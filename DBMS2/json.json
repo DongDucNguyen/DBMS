@@ -1,0 +1,81 @@
+db.nsx_embedded.insertMany([
+  {
+    "_id": 1,
+    "TenNSX": "Dell",
+    "DiaChi": "Round Rock, Texas, USA",
+    "SanPham": [
+      { "MaSP": "SP001", "Loai": "PC", "CPU": "Intel i5-10400", "RAM": "8GB", "HD": "1TB HDD", "Gia": 15000.00 },
+      { "MaSP": "SP002", "Loai": "Laptop", "CPU": "Intel i7-10750H", "RAM": "16GB", "HD": "1TB SSD", "ManHinh": "15.6 inch", "Gia": 25000.00 }
+    ]
+  },
+  {
+    "_id": 2,
+    "TenNSX": "HP",
+    "DiaChi": "Palo Alto, California, USA",
+    "SanPham": [
+      { "MaSP": "SP003", "Loai": "PC", "CPU": "AMD Ryzen 5 3500", "RAM": "16GB", "HD": "512GB SSD", "Gia": 20000.00 }
+    ]
+  },
+  {
+    "_id": 3,
+    "TenNSX": "Apple",
+    "DiaChi": "Cupertino, California, USA",
+    "SanPham": [
+      { "MaSP": "SP004", "Loai": "Laptop", "CPU": "Apple M1", "RAM": "8GB", "HD": "256GB SSD", "ManHinh": "13.3 inch", "Gia": 30000.00 }
+    ]
+  },
+  {
+    "_id": 4,
+    "TenNSX": "Lenovo",
+    "DiaChi": "Beijing, China",
+    "SanPham": [
+      { "MaSP": "SP005", "Loai": "Laptop", "CPU": "Intel i5-113567", "RAM": "16GB", "HD": "512GB SSD", "ManHinh": "14 inch", "Gia": 22000.00 }
+    ]
+  },
+  {
+    "_id": 5,
+    "TenNSX": "Asus",
+    "DiaChi": "Taipei, Taiwan",
+    "SanPham": [
+      { "MaSP": "SP006", "Loai": "PC", "CPU": "Intel i5-11400", "RAM": "16GB", "HD": "1TB HDD", "Gia": 18000.00 }
+    ]
+  },
+  {
+    "_id": 6,
+    "TenNSX": "Acer",
+    "DiaChi": "Taipei, Taiwan",
+    "SanPham": [
+      { "MaSP": "SP007", "Loai": "Laptop", "CPU": "Intel 19-10980HK", "RAM": "32GB", "HD": "1TB SSD", "ManHinh": "15.6 inch", "Gia": 35000.00 }
+    ]
+  },
+  {
+    "_id": 7,
+    "TenNSX": "Microsoft",
+    "DiaChi": "Redmond, Washington, USA",
+    "SanPham": [
+      { "MaSP": "SP008", "Loai": "PC", "CPU": "AMD Ryzen 7 3700X", "RAM": "32GB", "HD": "2TB SSD", "Gia": 25000.00 }
+    ]
+  },
+  {
+    "_id": 8,
+    "TenNSX": "Razer",
+    "DiaChi": "San Francisco, California, USA",
+    "SanPham": [
+      { "MaSP": "SP009", "Loai": "Laptop", "CPU": "Razer Blade 15", "RAM": "16GB", "HD": "512GB SSD", "ManHinh": "15.6 inch", "Gia": 28000.00 }
+    ]
+  },
+  {
+    "_id": 9,
+    "TenNSX": "MSI",
+    "DiaChi": "New Taipei City, Taiwan",
+    "SanPham": [
+      { "MaSP": "SP010", "Loai": "Laptop", "CPU": "MSI GS66", "RAM": "32GB", "HD": "1TB SSD", "ManHinh": "15.6 inch", "Gia": 33000.00 }
+    ]
+  },
+  {
+    "_id": 10,
+    "TenNSX": "Samsung",
+    "DiaChi": "Seoul, South Korea",
+    "SanPham": []
+  }
+]);
