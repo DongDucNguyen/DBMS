@@ -1,0 +1,7 @@
+{
+  "user": "postgres",
+  "host": "localhost",
+  "database": "garbage",
+  "password": "Mxnn@0319",
+  "port": 5432
+}
